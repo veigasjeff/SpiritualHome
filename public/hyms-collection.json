@@ -7,46 +7,6 @@
         "image": "https://img.youtube.com/vi/YebKutSxtjY/maxresdefault.jpg",
         "videoitem": ["YebKutSxtjY"],
         "videotittle": ["Seven Cemeteries (2024)"]
-      },
-      {
-        "id": "2",
-        "badge": " [ Daily Mass ] ",
-        "title": "Bad Genius (2024)",
-        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaMfggb_OITCC-OvcYUOHhehFrel__1jhedw&s",
-        "videoitem": ["TWDuRcn9Dzg"],
-        "videotittle": ["Bad Genius (2024)"]
-      },
-      {
-        "id": "3",
-        "badge": " [ Daily Mass ] ",
-        "title": "The Stoic (2024)",
-        "image": "https://dramatv.click/uploads/thumbs/24f9bcaba-1.jpg",
-        "videoitem": ["8f9JFsRkahI"],
-        "videotittle": ["The Stoic (2024)"]
-      },
-      {
-        "id": "4",
-        "badge": " [ Daily Mass ] ",
-        "title": "9 Windows (2024)",
-        "image": "https://i.ytimg.com/vi/13yHYvml9H4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBdpWcmv_0VAZ6vBMnKkaQlvjAlJA",
-        "videoitem": ["9581NE-XgG8"],
-        "videotittle": ["9 Windows (2024)"]
-      },
-      {
-        "id": "5",
-        "badge": " [ Daily Mass ] ",
-        "title": "Rippy (2024)",
-        "image": "https://i.ytimg.com/vi/hu7IcWuCv7g/maxresdefault.jpg",
-        "videoitem": ["9581NE-XgG8"],
-        "videotittle": ["Rippy (2024)"]
-      },
-      {
-        "id": "6",
-        "badge": " [ Daily Mass ] ",
-        "title": "Cold Case (2021)",
-        "image": "https://img.youtube.com/vi/Z9uDOF5YmMs/maxresdefault.jpg",
-        "videoitem": ["Z9uDOF5YmMs"],
-        "videotittle": ["Cold Case (2021)"]
       }
     ]
   }

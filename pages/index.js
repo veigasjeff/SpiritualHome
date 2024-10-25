@@ -25,51 +25,51 @@ export default function Home() {
     "@graph": [
       {
         "@type": "WebPage",
-        "@id": "http://localhost:3000/",
-        "url": "http://localhost:3000/",
+        "@id": "https://spiritualhome.vercel.app/",
+        "url": "https://spiritualhome.vercel.app/",
         "name": "SpiritualHome",
-        "isPartOf": { "@id": "http://localhost:3000/#website" },
-        "about": { "@id": "http://localhost:3000/#organization" },
-        "primaryImageOfPage": { "@id": "http://localhost:3000/#primaryimage" },
-        "image": { "@id": "http://localhost:3000/#primaryimage" },
-        "thumbnailUrl": "http://localhost:3000/og_image.jpg",
+        "isPartOf": { "@id": "https://spiritualhome.vercel.app/#website" },
+        "about": { "@id": "https://spiritualhome.vercel.app/#organization" },
+        "primaryImageOfPage": { "@id": "https://spiritualhome.vercel.app/#primaryimage" },
+        "image": { "@id": "https://spiritualhome.vercel.app/#primaryimage" },
+        "thumbnailUrl": "https://spiritualhome.vercel.app/og_image.jpg",
         "datePublished": "2023-07-02T18:30:00+00:00",
         "dateModified": "2024-09-24T05:11:20+00:00",
-        "breadcrumb": { "@id": "http://localhost:3000/#breadcrumb" },
+        "breadcrumb": { "@id": "https://spiritualhome.vercel.app/#breadcrumb" },
         "inLanguage": "en-US",
         "potentialAction": [
-          { "@type": "ReadAction", "target": ["http://localhost:3000/"] }
+          { "@type": "ReadAction", "target": ["https://spiritualhome.vercel.app/"] }
         ]
       },
       {
         "@type": "ImageObject",
         "inLanguage": "en-US",
-        "@id": "http://localhost:3000/#primaryimage",
-        "url": "http://localhost:3000/og_image.jpg",
-        "contentUrl": "http://localhost:3000/og_image.jpg",
+        "@id": "https://spiritualhome.vercel.app/#primaryimage",
+        "url": "https://spiritualhome.vercel.app/og_image.jpg",
+        "contentUrl": "https://spiritualhome.vercel.app/og_image.jpg",
         "width": 1280,
         "height": 720
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "http://localhost:3000/#breadcrumb",
+        "@id": "https://spiritualhome.vercel.app/#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home" }
         ]
       },
       {
         "@type": "WebSite",
-        "@id": "http://localhost:3000/#website",
-        "url": "http://localhost:3000/",
+        "@id": "https://spiritualhome.vercel.app/#website",
+        "url": "https://spiritualhome.vercel.app/",
         "name": "SpiritualHome",
         "description": "",
-        "publisher": { "@id": "http://localhost:3000/#organization" },
+        "publisher": { "@id": "https://spiritualhome.vercel.app/#organization" },
         "potentialAction": [
           {
             "@type": "SearchAction",
             "target": {
               "@type": "EntryPoint",
-              "urlTemplate": "http://localhost:3000/?s={search_term_string}"
+              "urlTemplate": "https://spiritualhome.vercel.app/?s={search_term_string}"
             },
             "query-input": {
               "@type": "PropertyValueSpecification",
@@ -82,20 +82,20 @@ export default function Home() {
       },
       {
         "@type": "Organization",
-        "@id": "http://localhost:3000/#organization",
+        "@id": "https://spiritualhome.vercel.app/#organization",
         "name": "SpiritualHome",
-        "url": "http://localhost:3000/",
+        "url": "https://spiritualhome.vercel.app/",
         "logo": {
           "@type": "ImageObject",
           "inLanguage": "en-US",
-          "@id": "http://localhost:3000/#/schema/logo/image/",
-          "url": "http://localhost:3000/logo.png",
-          "contentUrl": "http://localhost:3000/logo.png",
+          "@id": "https://spiritualhome.vercel.app/#/schema/logo/image/",
+          "url": "https://spiritualhome.vercel.app/android-chrome-192x192.png",
+          "contentUrl": "https://spiritualhome.vercel.app/android-chrome-192x192.png",
           "width": 280,
           "height": 100,
           "caption": "SpiritualHome"
         },
-        "image": { "@id": "http://localhost:3000/#/schema/logo/image/" }
+        "image": { "@id": "https://spiritualhome.vercel.app/#/schema/logo/image/" }
       }
     ]
   });
@@ -108,7 +108,7 @@ export default function Home() {
           rel="sitemap"
           type="application/xml"
           title="Sitemap"
-          href="http://localhost:3000/sitemap.xml"
+          href="https://spiritualhome.vercel.app/sitemap.xml"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -119,9 +119,9 @@ export default function Home() {
         />
         <meta
           name="description"
-          content=" "
+          content="Welcome to SpiritualHome, a sanctuary for those seeking deeper meaning and connection in their lives. Our platform is dedicated to providing resources, guidance, and community for individuals on their spiritual journeys. "
         />
-        <link rel="canonical" href="http://localhost:3000/" />
+        <link rel="canonical" href="https://spiritualhome.vercel.app/" />
         <meta
           name="google-site-verification"
           content="RNN2teFhD-lV1TQ9qcLQiSO5BLBB4DmztyYJS6QLqDg"
@@ -134,7 +134,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="http://localhost:3000/"
+          content="https://spiritualhome.vercel.app/"
         />
         <meta
           property="og:site_name"
@@ -142,7 +142,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="http://localhost:3000/og_image.jpg"
+          content="https://spiritualhome.vercel.app/og_image.jpg"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -153,11 +153,11 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content=" "
+          content="Welcome to SpiritualHome, a sanctuary for those seeking deeper meaning and connection in their lives. Our platform is dedicated to providing resources, guidance, and community for individuals on their spiritual journeys. "
         />
         <meta
           name="twitter:image"
-          content="http://localhost:3000/og_image.jpg"
+          content="https://spiritualhome.vercel.app/og_image.jpg"
         />
 
         <script

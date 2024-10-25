@@ -10,56 +10,56 @@ const HymnsCollectionSchema = JSON.stringify({
   "@graph": [
     {
       "@type": "CollectionPage",
-      "@id": "http://localhost:3000/hymns-collection/",
-      url: "http://localhost:3000/hymns-collection/",
+      "@id": "https://spiritualhome.vercel.app/hymns-collection/",
+      url: "https://spiritualhome.vercel.app/hymns-collection/",
       name: "SpiritualHome - Hymns Collection",
-      isPartOf: { "@id": "http://localhost:3000/#website" },
+      isPartOf: { "@id": "https://spiritualhome.vercel.app/#website" },
       primaryImageOfPage: {
-        "@id": "http://localhost:3000/hymns-collection/#primaryimage",
+        "@id": "https://spiritualhome.vercel.app/hymns-collection/#primaryimage",
       },
-      image: { "@id": "http://localhost:3000/hymns-collection/#primaryimage" },
-      thumbnailUrl: "http://localhost:3000/Hymns_Collection.jpg",
+      image: { "@id": "https://spiritualhome.vercel.app/hymns-collection/#primaryimage" },
+      thumbnailUrl: "https://spiritualhome.vercel.app/Hymns_Collection.jpg",
       breadcrumb: {
-        "@id": "http://localhost:3000/hymns-collection/#breadcrumb",
+        "@id": "https://spiritualhome.vercel.app/hymns-collection/#breadcrumb",
       },
       inLanguage: "en-US",
     },
     {
       "@type": "ImageObject",
       inLanguage: "en-US",
-      "@id": "http://localhost:3000/hymns-collection/#primaryimage",
-      url: "http://localhost:3000/Hymns_Collection.jpg",
-      contentUrl: "http://localhost:3000/Hymns_Collection.jpg",
+      "@id": "https://spiritualhome.vercel.app/hymns-collection/#primaryimage",
+      url: "https://spiritualhome.vercel.app/Hymns_Collection.jpg",
+      contentUrl: "https://spiritualhome.vercel.app/Hymns_Collection.jpg",
       width: 1280,
       height: 720,
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "http://localhost:3000/hymns-collection/#breadcrumb",
+      "@id": "https://spiritualhome.vercel.app/hymns-collection/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
           position: 1,
           name: "Home",
-          item: "http://localhost:3000/",
+          item: "https://spiritualhome.vercel.app/",
         },
         { "@type": "ListItem", position: 2, name: "SpiritualHome - Hymns Collection" },
       ],
     },
     {
       "@type": "WebSite",
-      "@id": "http://localhost:3000/#website",
-      url: "http://localhost:3000/",
+      "@id": "https://spiritualhome.vercel.app/#website",
+      url: "https://spiritualhome.vercel.app/",
       name: "SpiritualHome",
       description: "",
-      publisher: { "@id": "http://localhost:3000/#organization" },
+      publisher: { "@id": "https://spiritualhome.vercel.app/#organization" },
       potentialAction: [
         {
           "@type": "SearchAction",
           target: {
             "@type": "EntryPoint",
             urlTemplate:
-              "http://localhost:3000/?s={search_term_string}",
+              "https://spiritualhome.vercel.app/?s={search_term_string}",
           },
           "query-input": {
             "@type": "PropertyValueSpecification",
@@ -72,20 +72,20 @@ const HymnsCollectionSchema = JSON.stringify({
     },
     {
       "@type": "Organization",
-      "@id": "http://localhost:3000/#organization",
+      "@id": "https://spiritualhome.vercel.app/#organization",
       name: "SpiritualHome",
-      url: "http://localhost:3000/",
+      url: "https://spiritualhome.vercel.app/",
       logo: {
         "@type": "ImageObject",
         inLanguage: "en-US",
-        "@id": "http://localhost:3000/#/schema/logo/image/",
-        url: "http://localhost:3000/logo.png",
-        contentUrl: "http://localhost:3000/logo.png",
+        "@id": "https://spiritualhome.vercel.app/#/schema/logo/image/",
+        url: "https://spiritualhome.vercel.app/android-chrome-192x192.png",
+        contentUrl: "https://spiritualhome.vercel.app/android-chrome-192x192.png",
         width: 280,
         height: 100,
         caption: "SpiritualHome",
       },
-      image: { "@id": "http://localhost:3000/#/schema/logo/image/" },
+      image: { "@id": "https://spiritualhome.vercel.app/#/schema/logo/image/" },
     },
   ],
 });
@@ -100,7 +100,7 @@ export default function Home() {
           rel="sitemap"
           type="application/xml"
           title="Sitemap"
-          href="http://localhost:3000/sitemap.xml"
+          href="https://spiritualhome.vercel.app/sitemap.xml"
         />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/x-icon" href="/favicon.ico" />
@@ -111,9 +111,9 @@ export default function Home() {
         />
         <meta
           name="description"
-          content=" "
+          content="Welcome to SpiritualHome, a sanctuary for those seeking deeper meaning and connection in their lives. Our platform is dedicated to providing resources, guidance, and community for individuals on their spiritual journeys. "
         />
-        <link rel="canonical" href="http://localhost:3000/hymns-collection" />
+        <link rel="canonical" href="https://spiritualhome.vercel.app/hymns-collection" />
         <meta
           name="google-site-verification"
           content="RNN2teFhD-lV1TQ9qcLQiSO5BLBB4DmztyYJS6QLqDg"
@@ -126,7 +126,7 @@ export default function Home() {
         />
         <meta
           property="og:url"
-          content="http://localhost:3000/hymns-collection"
+          content="https://spiritualhome.vercel.app/hymns-collection"
         />
         <meta
           property="og:site_name"
@@ -134,7 +134,7 @@ export default function Home() {
         />
         <meta
           property="og:image"
-          content="http://localhost:3000/Hymns_Collection.jpg"
+          content="https://spiritualhome.vercel.app/Hymns_Collection.jpg"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
@@ -145,11 +145,11 @@ export default function Home() {
         />
         <meta
           name="twitter:description"
-          content=" "
+          content="Welcome to SpiritualHome, a sanctuary for those seeking deeper meaning and connection in their lives. Our platform is dedicated to providing resources, guidance, and community for individuals on their spiritual journeys. "
         />
         <meta
           name="twitter:image"
-          content="http://localhost:3000/Hymns_Collection.jpg"
+          content="https://spiritualhome.vercel.app/Hymns_Collection.jpg"
         />
 
         <script
