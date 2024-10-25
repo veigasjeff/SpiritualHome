@@ -1,0 +1,21 @@
+{
+    "articles": [
+      {
+        "id": "1",
+        "badge": " Peter Jerry Rodrigues ",
+        "title": "Priestly Ordination of 4 Mangaluru",
+        "image": "https://img.youtube.com/vi/5plMf-SVrbg/maxresdefault.jpg",
+        "videoitem": ["5plMf-SVrbg"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "2",
+        "badge": " DIVINE WORD TV ",
+        "title": "Ordination to Diaconate | St. Joseph's Inter-Diocesan Seminary, Jeppu, Mangalore | October 02, 2024",
+        "image": "https://img.youtube.com/vi/hv8uJnOQpP0/maxresdefault.jpg",
+        "videoitem": ["hv8uJnOQpP0"],
+        "videotittle": ["Bad Genius (2024)"]
+      } 
+     ]
+  }
+  

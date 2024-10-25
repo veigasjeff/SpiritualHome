@@ -1,0 +1,92 @@
+.heroSection {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  height: 500px; /* Fixed height for the section */
+  width: 100%; /* Full width of the parent */
+  background-image: url('https://res.cloudinary.com/db36kfuq3/image/upload/v1729762464/god_dnovkt.png');
+  background-size: cover; /* Covers the section without stretching */
+  background-repeat: no-repeat; /* Prevents repeating */
+  background-position: center; /* Centers the image */
+  position: relative; /* Positions content absolutely */
+  color: white;
+  margin: 0 auto; /* Center the section itself */
+}
+
+.heroContent {
+  text-align: center; /* Center text inside the heroContent */
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent background for contrast */
+  padding: 1.5rem;
+  border-radius: 10px;
+  position: relative; /* To stack above the background image */
+  z-index: 1; /* Ensure the content is above the background */
+  max-width: 90%; /* Ensure content does not exceed container width */
+}
+
+.heroContent h1 {
+  font-size: 2.5rem; /* Heading size */
+  margin-bottom: 1rem; /* Space below heading */
+}
+
+.heroContent p {
+  font-size: 1rem; /* Paragraph size */
+  margin-bottom: 1.5rem; /* Space below paragraph */
+}
+
+.heroContent .exploreButton {
+  padding: 0.75rem 1.5rem; /* Button padding */
+  font-size: 1.5rem; /* Button text size */
+  background-color: #ff6f61; /* Button background color */
+  border: none; /* No border */
+  color: white; /* Text color */
+  cursor: pointer; /* Pointer on hover */
+  border-radius: 5px; /* Rounded corners */
+}
+
+.heroContent .exploreButton:hover {
+  background-color: #ff5a4d; /* Button hover color */
+}
+
+/* Media Queries for Mobile Devices */
+@media (max-width: 768px) {
+  .heroSection {
+    height: 100vh; /* Full height on mobile */
+  }
+
+  .heroContent {
+    padding: 1rem; /* Smaller padding on mobile */
+    max-width: 100%; /* Full width on mobile */
+  }
+
+  .heroContent h1 {
+    font-size: 2rem; /* Smaller heading font on mobile */
+  }
+
+  .heroContent p {
+    font-size: 1rem; /* Smaller paragraph font on mobile */
+  }
+
+  .heroContent .exploreButton {
+    font-size: 1.5rem; /* Smaller button text on mobile */
+    padding: 0.5rem 1.5rem; /* Smaller button padding on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .heroSection {
+    height: 100vh; /* Full height on small screens */
+  }
+
+  .heroContent h1 {
+    font-size: 1.75rem; /* Smaller heading font for small screens */
+  }
+
+  .heroContent p {
+    font-size: 0.9rem; /* Smaller paragraph font for small screens */
+  }
+
+  .heroContent .exploreButton {
+    font-size: 1.5rem; /* Smaller button text for small screens */
+    padding: 0.5rem 1.25rem; /* Smaller button padding for small screens */
+  }
+}
