@@ -3,7 +3,7 @@ import Head from 'next/head';
 // import LatestVideos from '../components/LatestVideos';
 import WeddingCeremony from "../components/WeddingCeremony";
 import styles from '../styles/Home.module.css';
-import SocialSharing from "../../components/SocialSharing";
+import SocialSharing from "../components/SocialSharing";
 
 const WeddingCeremonySchema = JSON.stringify({
   "@context": "https://schema.org",

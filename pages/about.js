@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import SocialSharing from "../../components/SocialSharing";
+import SocialSharing from "../components/SocialSharing";
 
 const AboutSchema = JSON.stringify({
   "@context": "https://schema.org",
