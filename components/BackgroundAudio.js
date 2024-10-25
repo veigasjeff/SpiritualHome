@@ -43,30 +43,30 @@ import { Howl } from 'howler';
 
 const BackgroundAudio = ({ audioSrc, isVideoPlaying }) => {
   const soundRef = useRef(null);
-  const isPlayingRef = useRef(false); // To keep track of audio play state
 
   useEffect(() => {
-    // Initialize Howl instance
+    // Initialize Howl instance but do not play immediately
     soundRef.current = new Howl({
       src: [audioSrc],
       loop: true,
-      volume: 0.5,
+      volume: 0.5, // Set initial volume
     });
 
     const playAudioOnInteraction = () => {
-      if (!isPlayingRef.current) {
+      // Check if audio isn't already playing
+      if (!soundRef.current.playing()) {
         soundRef.current.play();
-        isPlayingRef.current = true; // Set audio as playing
-        window.removeEventListener('click', playAudioOnInteraction);
-        window.removeEventListener('touchstart', playAudioOnInteraction);
       }
+      // Remove event listeners after the first interaction
+      window.removeEventListener('click', playAudioOnInteraction);
+      window.removeEventListener('touchstart', playAudioOnInteraction);
     };
 
-    // Add event listeners to handle user interaction for mobile devices
+    // Add event listeners for initial interaction
     window.addEventListener('click', playAudioOnInteraction);
     window.addEventListener('touchstart', playAudioOnInteraction);
 
-    // Cleanup function to stop audio when the component unmounts
+    // Cleanup on component unmount
     return () => {
       soundRef.current.stop();
       window.removeEventListener('click', playAudioOnInteraction);
@@ -77,10 +77,8 @@ const BackgroundAudio = ({ audioSrc, isVideoPlaying }) => {
   useEffect(() => {
     if (isVideoPlaying) {
       soundRef.current.stop();
-      isPlayingRef.current = false;
     } else if (!soundRef.current.playing()) {
       soundRef.current.play();
-      isPlayingRef.current = true;
     }
   }, [isVideoPlaying]);
 
