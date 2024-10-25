@@ -108,7 +108,7 @@ export default function Home() {
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta
           name="keywords"
-          content="SpiritualHome "
+          content="spiritualhome, spiritual, devotional, retreats, prayers, religious, worship, faith, daily prayers"
         />
         <meta
           name="description"
@@ -117,7 +117,7 @@ export default function Home() {
         <link rel="canonical" href="https://spiritualhome.vercel.app/hymns-collection" />
         <meta
           name="google-site-verification"
-          content="RNN2teFhD-lV1TQ9qcLQiSO5BLBB4DmztyYJS6QLqDg"
+          content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
@@ -157,11 +157,11 @@ export default function Home() {
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html:  HymnsCollectionSchema }}
         />
-        {/* <script
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4821855388989115"
           crossOrigin="anonymous"
-        ></script> */}
+        ></script>
       </Head>
       <SocialSharing />
    
