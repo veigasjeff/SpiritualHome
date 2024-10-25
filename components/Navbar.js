@@ -16,7 +16,7 @@ const Navbar = () => {
     
       <div className="flex justify-center mt-4">
         <a
-          href="https://www.youtube.com/channel/UCiYD6dTKTk0cRnhCo-3SKzw/"
+          href="https://www.youtube.com/"
           target="_blank"
           rel="noopener noreferrer"
           className="text-gray-500 hover:text-gray-600 mx-2"
@@ -53,8 +53,8 @@ const Navbar = () => {
       <div className={`${styles.navLinks} ${menuOpen ? styles.active : ""}`}>
         <a href="/">Home</a>
         <a href="#">Quotes</a>
-        <a href="#">About</a>
-        <a href="#">Contact</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
       </div>
       <div className={styles.hamburgerMenu} onClick={toggleMenu}>
         ☰
