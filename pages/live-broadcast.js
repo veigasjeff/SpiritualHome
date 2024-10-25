@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import LiveBroadcast from "../components/LiveBroadcast";
+import SocialSharing from "../components/SocialSharing";
 // import HeroSection from '../components/HeroSection';
 // import LatestVideos from '../components/LatestVideos';
 import Programs from "../components/Programs";
