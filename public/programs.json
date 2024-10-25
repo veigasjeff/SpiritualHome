@@ -2,8 +2,16 @@
     "articles": [
       {
         "id": "1",
+        "badge": " DIVYAVANI LIVE",
+        "title": "INAUGURATION CEREMONY | SNEHALAYA DE ADDICTION CENTRE ",
+        "image": "https://img.youtube.com/vi/NHHKicA1rG0/maxresdefault.jpg",
+        "videoitem": ["NHHKicA1rG0"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
         "badge": " Carmel Kiran Media ",
-        "title": "CARMEL CAFE | EPISODE - 13 | WENCITA DIAS | LEEZA RODRIGUES | ",
+        "title": "CARMEL CAFE | EPISODE - 13 | WENCITA DIAS | LEEZA RODRIGUES ",
         "image": "https://img.youtube.com/vi/DJ7I2-7cDsE/maxresdefault.jpg",
         "videoitem": ["DJ7I2-7cDsE"],
         "videotittle": ["Seven Cemeteries (2024)"]
