@@ -8,14 +8,7 @@
         "videoitem": ["NKkbBU6YG_Q"],
         "videotittle": [" "]
       },
-      {
-        "id": "1",
-        "badge": "DIVYAVANI LIVE",
-        "title": "NFANT JESUS NOVENA MASS | October 25, 2024",
-        "image": "https://img.youtube.com/vi/HWzbINlORjk/maxresdefault.jpg",
-        "videoitem": ["HWzbINlORjk"],
-        "videotittle": [" "]
-      },
+     
       {
         "id": "1",
         "badge": "LogosVoiceTV",
@@ -47,15 +40,8 @@
         "image": "https://img.youtube.com/vi/GXtJ3rtF8qs/maxresdefault.jpg",
         "videoitem": ["GXtJ3rtF8qs"],
         "videotittle": [" "]
-      },
-      {
-        "id": "2",
-        "badge": "DIVINE WORD TV",
-        "title": "Novena Day 7 | 25-10-2024 | St. Jude Shrine, Pakshikere",
-        "image": "https://img.youtube.com/vi/--XB5vB4TyU/maxresdefault.jpg",
-        "videoitem": ["--XB5vB4TyU"],
-        "videotittle": [" "]
-      } 
+      }
+    
     
     ]
   }
