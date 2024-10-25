@@ -9,7 +9,7 @@ const BackgroundAudio = ({ audioSrc, isVideoPlaying }) => {
     soundRef.current = new Howl({
       src: [audioSrc],
       loop: true,
-      volume: 0.3, // Set initial volume
+      volume: 0.5, // Set initial volume
     });
 
     // Play the audio when the component mounts
