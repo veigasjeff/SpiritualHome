@@ -1,5 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
+import SocialSharing from "../../components/SocialSharing";
 
 const ContactSchema = JSON.stringify({
   "@context": "https://schema.org",
@@ -157,6 +158,7 @@ const Contact = () => {
         crossOrigin="anonymous"
       ></script> */}
     </Head>
+    <SocialSharing />
     <div className="contact-container" style={{ padding: '20px', textAlign: 'center', backgroundColor: '#f5f5f5' }}>
       <h1 style={{ color: '#4a4a4a' }}>Contact Us</h1>
       <p style={{ color: '#333', fontSize: '18px', maxWidth: '600px', margin: '0 auto' }}>

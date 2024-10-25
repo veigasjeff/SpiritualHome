@@ -4,6 +4,7 @@ import Head from 'next/head';
 // import LatestVideos from '../components/LatestVideos';
 import Adoration from "../components/Adoration";
 import styles from '../styles/Home.module.css';
+import SocialSharing from "../../components/SocialSharing";
 
 const AdorationSchema = JSON.stringify({
   "@context": "https://schema.org",
@@ -162,7 +163,7 @@ export default function Home() {
           crossOrigin="anonymous"
         ></script> */}
       </Head>
-
+      <SocialSharing />
    
       <main className={styles.main}>
       <div

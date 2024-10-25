@@ -1,5 +1,5 @@
 import Head from 'next/head';
-
+import SocialSharing from "../../components/SocialSharing";
 // import HeroSection from '../components/HeroSection';
 // import LatestVideos from '../components/LatestVideos';
 import Programs from "../components/Programs";
@@ -161,7 +161,7 @@ export default function Home() {
           crossOrigin="anonymous"
         ></script> */}
       </Head>
-
+      <SocialSharing />
    
       <main className={styles.main}>
       <div
