@@ -180,8 +180,12 @@ export default function Home() {
           onVideoPause={handleVideoPause}
         />
         {/* Ensure correct path to the audio file in the public directory */}
-        <BackgroundAudio
+        {/* <BackgroundAudio
           audioSrc="https://res.cloudinary.com/db36kfuq3/video/upload/v1729776318/audio_hpuowa.mp3"
+          isVideoPlaying={isVideoPlaying}
+        /> */}
+          <BackgroundAudio
+          audioSrc="https://res.cloudinary.com/db36kfuq3/video/upload/v1729873496/Thank_You_Lord_j1h5zd.mp3"
           isVideoPlaying={isVideoPlaying}
         />
       

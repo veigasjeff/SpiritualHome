@@ -2,10 +2,18 @@
     "articles": [
       {
         "id": "1",
-        "badge": " [ Daily Mass ] ",
-        "title": "Novena Day 6 | 24-10-2024 | St. Jude Shrine, Pakshikere",
-        "image": "https://img.youtube.com/vi/YebKutSxtjY/maxresdefault.jpg",
-        "videoitem": ["YebKutSxtjY"],
+        "badge": "Worship Music",
+        "title": "Best Praise and Worship Songs | 2024",
+        "image": "https://img.youtube.com/vi/YsOhltgXd7U/maxresdefault.jpg",
+        "videoitem": ["YsOhltgXd7U"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
+        "badge": "Don Moen Worship Songs",
+        "title": "Best Worship Songs of Don Moen | 2024",
+        "image": "https://img.youtube.com/vi/FKzMrJ72Usc/maxresdefault.jpg",
+        "videoitem": ["FKzMrJ72Usc"],
         "videotittle": ["Seven Cemeteries (2024)"]
       }
     ]
