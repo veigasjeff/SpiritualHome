@@ -3,7 +3,7 @@ import LiveBroadcast from "../components/LiveBroadcast";
 import SocialSharing from "../components/SocialSharing";
 // import HeroSection from '../components/HeroSection';
 // import LatestVideos from '../components/LatestVideos';
-import Programs from "../components/Programs";
+// import Programs from "../components/Programs";
 import styles from '../styles/Home.module.css';
 import QuoteOfTheDay from "../components/QuoteOfTheDay";
 
@@ -12,14 +12,14 @@ const ProgramsSchema = JSON.stringify({
   "@graph": [
     {
       "@type": "CollectionPage",
-      "@id": "https://spiritualhome.vercel.app/programs/",
-      url: "https://spiritualhome.vercel.app/programs/",
-      name: "SpiritualHome - Programs",
+      "@id": "https://spiritualhome.vercel.app/live-broadcast/",
+      url: "https://spiritualhome.vercel.app/live-broadcast/",
+      name: "SpiritualHome - Live Broadcast",
       isPartOf: { "@id": "https://spiritualhome.vercel.app/#website" },
       primaryImageOfPage: {
-        "@id": "https://spiritualhome.vercel.app/programs/#primaryimage",
+        "@id": "https://spiritualhome.vercel.app/live-broadcast/#primaryimage",
       },
-      image: { "@id": "https://spiritualhome.vercel.app/programs/#primaryimage" },
+      image: { "@id": "https://spiritualhome.vercel.app/live-broadcast/#primaryimage" },
       thumbnailUrl: "https://spiritualhome.vercel.app/Programs.jpg",
       breadcrumb: {
         "@id": "https://spiritualhome.vercel.app/programs/#breadcrumb",
@@ -29,15 +29,15 @@ const ProgramsSchema = JSON.stringify({
     {
       "@type": "ImageObject",
       inLanguage: "en-US",
-      "@id": "https://spiritualhome.vercel.app/programs/#primaryimage",
-      url: "https://spiritualhome.vercel.app/Programs.jpg",
+      "@id": "https://spiritualhome.vercel.app/live-broadcast/#primaryimage",
+      url: "https://spiritualhome.vercel.app/live-broadcast.jpg",
       contentUrl: "https://spiritualhome.vercel.app/Programs.jpg",
       width: 1280,
       height: 720,
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://spiritualhome.vercel.app/programs/#breadcrumb",
+      "@id": "https://spiritualhome.vercel.app/live-broadcast/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -45,7 +45,7 @@ const ProgramsSchema = JSON.stringify({
           name: "Home",
           item: "https://spiritualhome.vercel.app/",
         },
-        { "@type": "ListItem", position: 2, name: "SpiritualHome - Programs" },
+        { "@type": "ListItem", position: 2, name: "SpiritualHome - Live Broadcast" },
       ],
     },
     {
@@ -96,7 +96,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>SpiritualHome - Programs</title>
+        <title>SpiritualHome - Live Broadcast</title>
         <link
           rel="sitemap"
           type="application/xml"
@@ -114,7 +114,7 @@ export default function Home() {
           name="description"
           content="Welcome to SpiritualHome, a sanctuary for those seeking deeper meaning and connection in their lives. Our platform is dedicated to providing resources, guidance, and community for individuals on their spiritual journeys. "
         />
-        <link rel="canonical" href="https://spiritualhome.vercel.app/programs" />
+        <link rel="canonical" href="https://spiritualhome.vercel.app/live-broadcast" />
         <meta
           name="google-site-verification"
           content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg"
@@ -123,15 +123,15 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="SpiritualHome - Programs"
+          content="SpiritualHome - Live Broadcast"
         />
         <meta
           property="og:url"
-          content="https://spiritualhome.vercel.app/programs"
+          content="https://spiritualhome.vercel.app/live-broadcast"
         />
         <meta
           property="og:site_name"
-          content="SpiritualHome - Programs"
+          content="SpiritualHome - Live Broadcast"
         />
         <meta
           property="og:image"
@@ -142,7 +142,7 @@ export default function Home() {
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="SpiritualHome - Programs"
+          content="SpiritualHome - Live Broadcast"
         />
         <meta
           name="twitter:description"
