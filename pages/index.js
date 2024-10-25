@@ -174,6 +174,7 @@ export default function Home() {
       <main className={styles.main}>
         <HeroSection />
         {/* Ensure that VideoGrid handles video play/pause events */}
+        <QuoteOfTheDay />
         <LiveBroadcast
           onVideoPlay={handleVideoPlay}
           onVideoPause={handleVideoPause}
@@ -183,7 +184,7 @@ export default function Home() {
           audioSrc="https://res.cloudinary.com/db36kfuq3/video/upload/v1729776318/audio_hpuowa.mp3"
           isVideoPlaying={isVideoPlaying}
         />
-        <QuoteOfTheDay />
+      
       </main>
     </>
   );
