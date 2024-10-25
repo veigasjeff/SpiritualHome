@@ -86,7 +86,12 @@ const VideoGrid = () => {
             {videos.length > 0 ? (
               videos.map((video, index) => (
                 <div className={youtubeStyles.card} key={index} onClick={() => openModal(video.videoitem[0])}>
-                  <img src={video.image} alt={video.title} className={youtubeStyles.videoThumbnail} />
+                  <img src={video.image} alt={video.title} className={youtubeStyles.videoThumbnail}  style={{
+                        cursor: "pointer",
+                        boxShadow: "0 0 10px 0 #000", // Shadow effect
+                        filter:
+                          "contrast(1.1) saturate(1.1) brightness(1.0) hue-rotate(0deg)", // Image filter effects
+                      }}/>
                   <h3 className={youtubeStyles.title}>{video.title}</h3>
                   <p className={youtubeStyles.channel}>{video.badge}</p>
               
@@ -102,7 +107,8 @@ const VideoGrid = () => {
             <div className={youtubeStyles.modal} onClick={closeModal}>
               <div className={youtubeStyles.modalContent} onClick={(e) => e.stopPropagation()}>
                 <button className={youtubeStyles.close} onClick={closeModal}>Close</button>
-                <div id="youtube-player" className={youtubeStyles.player} style={{ display: playerReady ? 'block' : 'none' }} />
+                <div id="youtube-player" className={youtubeStyles.player} style={{ display: playerReady ? 'block' : 'none',  filter:
+                 "contrast(1.1) saturate(1.2) brightness(1.3) hue-rotate(0deg)" }} />
               </div>
             </div>
           )}
