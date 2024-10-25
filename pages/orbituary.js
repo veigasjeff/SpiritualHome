@@ -4,6 +4,7 @@ import SocialSharing from "../components/SocialSharing";
 // import LatestVideos from '../components/LatestVideos';
 import Orbituary from "../components/Orbituary";
 import styles from '../styles/Home.module.css';
+import QuoteOfTheDay from "../components/QuoteOfTheDay";
 
 const OrbituarySchema = JSON.stringify({
   "@context": "https://schema.org",
@@ -268,6 +269,7 @@ export default function Home() {
       </div>
         {/* <HeroSection /> */}
         {/* <LatestVideos /> */}
+        <QuoteOfTheDay />
         <Orbituary />
       </main>
     

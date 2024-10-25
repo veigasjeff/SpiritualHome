@@ -4,6 +4,7 @@ import Head from 'next/head';
 import WeddingCeremony from "../components/WeddingCeremony";
 import styles from '../styles/Home.module.css';
 import SocialSharing from "../components/SocialSharing";
+import QuoteOfTheDay from "../components/QuoteOfTheDay";
 
 const WeddingCeremonySchema = JSON.stringify({
   "@context": "https://schema.org",
@@ -267,6 +268,7 @@ export default function Home() {
       </div>
         {/* <HeroSection /> */}
         {/* <LatestVideos /> */}
+        <QuoteOfTheDay />
         <WeddingCeremony />
       </main>
     

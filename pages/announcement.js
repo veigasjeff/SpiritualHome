@@ -5,6 +5,7 @@ import Head from 'next/head';
 import Announcement from "../components/Announcement";
 import styles from '../styles/Home.module.css';
 import SocialSharing from "../components/SocialSharing";
+import QuoteOfTheDay from "../components/QuoteOfTheDay";
 
 const AnnouncementSchema = JSON.stringify({
   "@context": "https://schema.org",
@@ -269,6 +270,7 @@ export default function Home() {
       </div>
         {/* <HeroSection /> */}
         {/* <LatestVideos /> */}
+        <QuoteOfTheDay />
         <Announcement />
       </main>
     

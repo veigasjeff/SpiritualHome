@@ -4,6 +4,7 @@ import SocialSharing from "../components/SocialSharing";
 // import LatestVideos from '../components/LatestVideos';
 import Programs from "../components/Programs";
 import styles from '../styles/Home.module.css';
+import QuoteOfTheDay from "../components/QuoteOfTheDay";
 
 const ProgramsSchema = JSON.stringify({
   "@context": "https://schema.org",
@@ -267,6 +268,7 @@ export default function Home() {
       </div>
         {/* <HeroSection /> */}
         {/* <LatestVideos /> */}
+        <QuoteOfTheDay />
         <Programs />
       </main>
     
