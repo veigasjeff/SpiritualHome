@@ -1,42 +1,42 @@
 import Head from 'next/head';
-import SocialSharing from "../components/SocialSharing";
+import LiveBroadcast from "../components/LiveBroadcast";
 // import HeroSection from '../components/HeroSection';
 // import LatestVideos from '../components/LatestVideos';
-import PriestOrdination from "../components/PriestOrdination";
+import Programs from "../components/Programs";
 import styles from '../styles/Home.module.css';
 import QuoteOfTheDay from "../components/QuoteOfTheDay";
 
-const PriestOrdinationSchema = JSON.stringify({
+const ProgramsSchema = JSON.stringify({
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "CollectionPage",
-      "@id": "https://spiritualhome.vercel.app/priest-ordination/",
-      url: "https://spiritualhome.vercel.app/priest-ordination/",
-      name: "SpiritualHome - Priest Ordination",
+      "@id": "https://spiritualhome.vercel.app/programs/",
+      url: "https://spiritualhome.vercel.app/programs/",
+      name: "SpiritualHome - Programs",
       isPartOf: { "@id": "https://spiritualhome.vercel.app/#website" },
       primaryImageOfPage: {
-        "@id": "https://spiritualhome.vercel.app/priest-ordination/#primaryimage",
+        "@id": "https://spiritualhome.vercel.app/programs/#primaryimage",
       },
-      image: { "@id": "https://spiritualhome.vercel.app/priest-ordination/#primaryimage" },
-      thumbnailUrl: "https://spiritualhome.vercel.app/Priest_Ordination.jpg",
+      image: { "@id": "https://spiritualhome.vercel.app/programs/#primaryimage" },
+      thumbnailUrl: "https://spiritualhome.vercel.app/Programs.jpg",
       breadcrumb: {
-        "@id": "https://spiritualhome.vercel.app/priest-ordination/#breadcrumb",
+        "@id": "https://spiritualhome.vercel.app/programs/#breadcrumb",
       },
       inLanguage: "en-US",
     },
     {
       "@type": "ImageObject",
       inLanguage: "en-US",
-      "@id": "https://spiritualhome.vercel.app/priest-ordination/#primaryimage",
-      url: "https://spiritualhome.vercel.app/Priest_Ordination.jpg",
-      contentUrl: "https://spiritualhome.vercel.app/Priest_Ordination.jpg",
+      "@id": "https://spiritualhome.vercel.app/programs/#primaryimage",
+      url: "https://spiritualhome.vercel.app/Programs.jpg",
+      contentUrl: "https://spiritualhome.vercel.app/Programs.jpg",
       width: 1280,
       height: 720,
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://spiritualhome.vercel.app/priest-ordination/#breadcrumb",
+      "@id": "https://spiritualhome.vercel.app/programs/#breadcrumb",
       itemListElement: [
         {
           "@type": "ListItem",
@@ -44,7 +44,7 @@ const PriestOrdinationSchema = JSON.stringify({
           name: "Home",
           item: "https://spiritualhome.vercel.app/",
         },
-        { "@type": "ListItem", position: 2, name: "SpiritualHome - Priest Ordination" },
+        { "@type": "ListItem", position: 2, name: "SpiritualHome - Programs" },
       ],
     },
     {
@@ -91,12 +91,11 @@ const PriestOrdinationSchema = JSON.stringify({
   ],
 });
 
-
 export default function Home() {
   return (
     <>
       <Head>
-        <title>SpiritualHome - Priest Ordination</title>
+        <title>SpiritualHome - Programs</title>
         <link
           rel="sitemap"
           type="application/xml"
@@ -108,13 +107,13 @@ export default function Home() {
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta
           name="keywords"
-         content="spiritualhome, spiritual, devotional, retreats, prayers, religious, worship, faith, daily prayers"
+          content="spiritualhome, spiritual, devotional, retreats, prayers, religious, worship, faith, daily prayers"
         />
         <meta
           name="description"
           content="Welcome to SpiritualHome, a sanctuary for those seeking deeper meaning and connection in their lives. Our platform is dedicated to providing resources, guidance, and community for individuals on their spiritual journeys. "
         />
-        <link rel="canonical" href="https://spiritualhome.vercel.app/priest-ordination" />
+        <link rel="canonical" href="https://spiritualhome.vercel.app/programs" />
         <meta
           name="google-site-verification"
           content="WQh7UdOVLh--PluVaU8U1m1IHrAPjaWmaItVOdek8tg"
@@ -123,26 +122,26 @@ export default function Home() {
         <meta property="og:type" content="article" />
         <meta
           property="og:title"
-          content="SpiritualHome - Priest Ordination"
+          content="SpiritualHome - Programs"
         />
         <meta
           property="og:url"
-          content="https://spiritualhome.vercel.app/priest-ordination"
+          content="https://spiritualhome.vercel.app/programs"
         />
         <meta
           property="og:site_name"
-          content="SpiritualHome - Priest Ordination"
+          content="SpiritualHome - Programs"
         />
         <meta
           property="og:image"
-          content="https://spiritualhome.vercel.app/Priest_Ordination.jpg"
+          content="https://spiritualhome.vercel.app/Programs.jpg"
         />
         <meta property="og:image:width" content="1280" />
         <meta property="og:image:height" content="720" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="SpiritualHome - Priest Ordination"
+          content="SpiritualHome - Programs"
         />
         <meta
           name="twitter:description"
@@ -150,12 +149,12 @@ export default function Home() {
         />
         <meta
           name="twitter:image"
-          content="https://spiritualhome.vercel.app/Priest_Ordination.jpg"
+          content="https://spiritualhome.vercel.app/Programs.jpg"
         />
 
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: PriestOrdinationSchema }}
+          dangerouslySetInnerHTML={{ __html: ProgramsSchema }}
         />
         <script
           async
@@ -216,7 +215,7 @@ export default function Home() {
           </button>
           <button className="border border-gray-500 bg-gray-200 p-2 m-1 hover:bg-orange-100 rounded-xl">
             <li id="menu-item-11610" className="menu-graphicdesign">
-            <a
+              <a
                 href="../hymns-collection/"
                 className="text-black hover:px-0 text-bg font-black bg-gradient-to-r from-amber-500 to-pink-500 bg-clip-text text-transparent text-xl"
               >
@@ -280,7 +279,7 @@ export default function Home() {
         {/* <HeroSection /> */}
         {/* <LatestVideos /> */}
         <QuoteOfTheDay />
-        <PriestOrdination />
+        <LiveBroadcast />
       </main>
     
     </>

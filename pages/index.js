@@ -175,10 +175,10 @@ export default function Home() {
         <HeroSection />
         {/* Ensure that VideoGrid handles video play/pause events */}
         <QuoteOfTheDay />
-        <LiveBroadcast
+        {/* <LiveBroadcast
           onVideoPlay={handleVideoPlay}
           onVideoPause={handleVideoPause}
-        />
+        /> */}
         {/* Ensure correct path to the audio file in the public directory */}
         {/* <BackgroundAudio
           audioSrc="https://res.cloudinary.com/db36kfuq3/video/upload/v1729776318/audio_hpuowa.mp3"
