@@ -2,6 +2,62 @@
     "articles": [
       {
         "id": "1",
+        "badge": " Daily TV Mass",
+        "title": "Catholic Mass Today - Daily TV Mass | 25-10-2024",
+        "image": "https://img.youtube.com/vi/-c-li2xMReM/maxresdefault.jpg",
+        "videoitem": ["-c-li2xMReM"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
+        "badge": " EWTN",
+        "title": "Catholic Daily Mass - Daily TV Mass | 25-10-2024",
+        "image": "https://img.youtube.com/vi/G6C9GfP0uEo/maxresdefault.jpg",
+        "videoitem": ["G6C9GfP0uEo"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
+        "badge": " St. Vincent de Paul Fort Wayne",
+        "title": "Friday of the Twenty-ninth Week in Ordinary Time | 25-10-2024",
+        "image": "https://img.youtube.com/vi/B_tZ02W_Qyo/maxresdefault.jpg",
+        "videoitem": ["B_tZ02W_Qyo"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
+        "badge": " My Prayer Channel",
+        "title": "𝐊𝐚𝐩𝐚𝐦𝐢𝐥𝐲𝐚 𝐃𝐚𝐢𝐥𝐲 𝐌𝐚𝐬𝐬 | 25-10-2024",
+        "image": "https://img.youtube.com/vi/VC4ZozVNA28/maxresdefault.jpg",
+        "videoitem": ["VC4ZozVNA28"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
+        "badge": "LogosVoiceTV",
+        "title": "Holy Mass |  Logos Retreat Centre, Bangalore | 25-10-2024",
+        "image": "https://img.youtube.com/vi/K0ITqvnGOqI/maxresdefault.jpg",
+        "videoitem": ["K0ITqvnGOqI"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
+        "badge": " MADHA TV",
+        "title": "Holy Mass in Tamil| 25-10-2024",
+        "image": "https://img.youtube.com/vi/lsjqGDmmwPs/maxresdefault.jpg",
+        "videoitem": ["lsjqGDmmwPs"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
+        "badge": " Divine Call Centre Mulki",
+        "title": "Adoration & daily Mass | 25-10-2024 | DCC Mulki.",
+        "image": "https://img.youtube.com/vi/Y2q53g_Tg1s/maxresdefault.jpg",
+        "videoitem": ["Y2q53g_Tg1s"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
         "badge": " DIVINE WORD TV ",
         "title": "Novena Day 6 | 24-10-2024 | St. Jude Shrine, Pakshikere",
         "image": "https://img.youtube.com/vi/YebKutSxtjY/maxresdefault.jpg",
