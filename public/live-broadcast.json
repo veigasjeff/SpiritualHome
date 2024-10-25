@@ -16,7 +16,30 @@
         "videoitem": ["HWzbINlORjk"],
         "videotittle": [" "]
       },
-          
+      {
+        "id": "1",
+        "badge": "LogosVoiceTV",
+        "title": "ADORATION | Live From | Logos Retreat Centre, Bangalore",
+        "image": "https://img.youtube.com/vi/l5GqZhkxOE0/maxresdefault.jpg",
+        "videoitem": ["l5GqZhkxOE0"],
+        "videotittle": [" "]
+      },  
+      {
+        "id": "1",
+        "badge": "LogosVoiceTV",
+        "title": "Holy Mass ( English ) | Live From | 26 October, 2024 ",
+        "image": "https://img.youtube.com/vi/PM-DMvDjFaQ/maxresdefault.jpg",
+        "videoitem": ["PM-DMvDjFaQ"],
+        "videotittle": [" "]
+      },  
+      {
+        "id": "1",
+        "badge": "LogosVoiceTV",
+        "title": "Saturday Retreat for Healing, Deliverance and Anointing | 26 October, 2024 ",
+        "image": "https://img.youtube.com/vi/iIDEdznvCic/maxresdefault.jpg",
+        "videoitem": ["iIDEdznvCic"],
+        "videotittle": [" "]
+      }, 
       {
         "id": "1",
         "badge": "DIVINE WORD TV",

@@ -2,10 +2,18 @@
     "articles": [
       {
         "id": "1",
-        "badge": " [ Daily Mass ] ",
-        "title": "Novena Day 6 | 24-10-2024 | St. Jude Shrine, Pakshikere",
-        "image": "https://img.youtube.com/vi/YebKutSxtjY/maxresdefault.jpg",
-        "videoitem": ["YebKutSxtjY"],
+        "badge": " Beaulah Rachel Kothapally",
+        "title": "Thandri Nee Sannidhilo | Rachel & Charles' Wedding Song | Telugu Christian",
+        "image": "https://img.youtube.com/vi/fstKxreCJ0Q/maxresdefault.jpg",
+        "videoitem": ["fstKxreCJ0Q"],
+        "videotittle": ["Seven Cemeteries (2024)"]
+      },
+      {
+        "id": "1",
+        "badge": " Rehoboth Online TV",
+        "title": "STEBIN with PRAICY | WEDDING CEREMONY | 24.10.2024",
+        "image": "https://img.youtube.com/vi/d88ZDKGgPtM/maxresdefault.jpg",
+        "videoitem": ["d88ZDKGgPtM"],
         "videotittle": ["Seven Cemeteries (2024)"]
       }
     ]
