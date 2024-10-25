@@ -2,6 +2,14 @@
     "articles": [
       {
         "id": "1",
+        "badge": "My Prayer Channel",
+        "title": "𝐊𝐚𝐩𝐚𝐦𝐢𝐥𝐲𝐚 𝐃𝐚𝐢𝐥𝐲 𝐌𝐚𝐬𝐬 | October 26, 2024",
+        "image": "https://img.youtube.com/vi/NKkbBU6YG_Q/maxresdefault.jpg",
+        "videoitem": ["NKkbBU6YG_Q"],
+        "videotittle": [" "]
+      },
+      {
+        "id": "1",
         "badge": "Divine Mercy Intercession Bandra East",
         "title": "24 Hrs - CHAIN INTERCESSION PRAYER",
         "image": "https://img.youtube.com/vi/mtDBrqPtTl8/maxresdefault.jpg",
@@ -10,12 +18,13 @@
       },
       {
         "id": "1",
-        "badge": "DIVINE WORD TV",
-        "title": "DIVINE WORD TV Live 24x7",
-        "image": "https://img.youtube.com/vi/jCKO25xeFRw/maxresdefault.jpg",
-        "videoitem": ["jCKO25xeFRw"],
+        "badge": "Divine Mercy Intercession Bandra East",
+        "title": "24 Hrs - CHAIN INTERCESSION PRAYER",
+        "image": "https://img.youtube.com/vi/mtDBrqPtTl8/maxresdefault.jpg",
+        "videoitem": ["mtDBrqPtTl8"],
         "videotittle": [" "]
       },
+    
       {
         "id": "1",
         "badge": "DIVINE WORD TV",
@@ -31,15 +40,7 @@
         "image": "https://img.youtube.com/vi/--XB5vB4TyU/maxresdefault.jpg",
         "videoitem": ["--XB5vB4TyU"],
         "videotittle": [" "]
-      },
-      {
-        "id": "3",
-        "badge": " DIVINE WORD TV ",
-        "title": "Funeral Ceremony of Paul Lasrado (81 Years) | Our Lady of Vailankanni Church, Farla",
-        "image": "https://img.youtube.com/vi/7ibL6M-PTsA/maxresdefault.jpg",
-        "videoitem": ["7ibL6M-PTsA"],
-        "videotittle": ["Seven Cemeteries (2024)"]
-      }
+      } 
     
     ]
   }
